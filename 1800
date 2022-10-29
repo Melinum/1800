@@ -1,0 +1,22 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Melinum-Blox", "DarkTheme")
+
+--Main
+local Main = Window:NewTab("Main")
+local MainSection = Main:NewSection("Player")
+
+MainSection:NewButton("DomainX", "", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/shlexware/DomainX/main/source"))() 
+end)
+
+MainSection:NewButton("Auto-Chest", "", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/scriptpastebin/raw/main/ChestFarm"))()
+end)
+
+MainSection:NewButton("W-Azure Aimbot", "Press Right Ctrl To Open Ui ", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/vinhuchi/rblx/main/W-azure/Free/huhubileaksource.lua"))()
+end) 
+
+MainSection:NewButton("AI O SI MA MODE [Dont Use!]", "VY CON DU CANH?", function()
+    game:GetService('Players').LocalPlayer:Kick('I TOLD YOU ! :)')
+end) 
